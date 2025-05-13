@@ -1,0 +1,62 @@
+/* cartfun.css */
+
+.cart-display {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 12px 0;
+  padding: 12px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.btn {
+  padding: 6px 12px;
+  background-color: #ff595e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn + .btn {
+  margin-left: 12px;
+}
+.btn:hover {
+  background-color: #d62828;
+}
+
+.total-price {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  border-top: 2px solid #ddd;
+  padding-top: 12px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+  color: #444;
+}
+
+ul {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+}
