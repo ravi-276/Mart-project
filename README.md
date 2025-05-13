@@ -1,0 +1,1 @@
+The Product Ordering System is a streamlined and user-friendly platform designed to manage the complete ordering process for products, from selection to final purchase. This system allows customers to browse available products, add items to a cart, and place orders securely.
